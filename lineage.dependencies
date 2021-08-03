@@ -1,6 +1,17 @@
 [
-  {
-    "repository": "android_device_xiaomi_sm8350-common",
-    "target_path": "device/xiaomi/sm8350-common"
-  }
+ {
+   "repository" : "yogevm15/android_device_xiaomi_sm8350-common",
+   "remote"     : "github",
+   "branch"     : "lineage-18.1"
+ },
+ {
+   "repository" : "SnowCore8/xiaomi_sm8350_kernel",
+   "remote"     : "github",
+   "branch"     : "master"
+ },
+ {
+   "repository" : "LineageOS/android_hardware_xiaomi",
+   "target_path": "hardware/xiaomi",
+   "branch"     : "lineage-18.1"
+ },
 ]
