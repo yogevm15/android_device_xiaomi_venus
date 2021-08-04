@@ -47,7 +47,7 @@ TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_venus
 TARGET_RECOVERY_DEVICE_MODULES := libinit_venus
 
 # Kernel
-TARGET_KERNEL_CONFIG := vendor/venus_defconfig
+TARGET_KERNEL_CONFIG := venus_defconfig
 
 # OTA assert
 TARGET_OTA_ASSERT_DEVICE := venus
