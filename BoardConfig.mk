@@ -11,23 +11,6 @@ DEVICE_PATH := device/xiaomi/venus
 
 BUILD_BROKEN_DUP_RULES := true
 
-# A/B
-BOARD_USES_RECOVERY_AS_BOOT := true
-BOARD_BUILD_SYSTEM_ROOT_IMAGE := false
-AB_OTA_UPDATER := true
-
-AB_OTA_PARTITIONS += \
-    boot \
-    dtbo \
-    odm \
-    product \
-    system \
-    system_ext \
-    vbmeta \
-    vbmeta_system \
-    vendor \
-    vendor_boot
-
 # Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/bluetooth/include
 
