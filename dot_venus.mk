@@ -14,7 +14,7 @@ $(call inherit-product, vendor/dot/config/common.mk)
 # Inherit from venus device
 $(call inherit-product, device/xiaomi/venus/device.mk)
 
-PRODUCT_NAME := lineage_venus
+PRODUCT_NAME := dot_venus
 PRODUCT_DEVICE := venus
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_BRAND := Xiaomi
