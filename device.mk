@@ -61,8 +61,5 @@ TARGET_ENABLE_AUDIO_ULL := true
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
 
-# Inherit from sm8350-common
-$(call inherit-product, device/xiaomi/sm8350-common/lahaina.mk)
-
 # Inherit from vendor blobs
 $(call inherit-product, vendor/xiaomi/venus/venus-vendor.mk)
